@@ -1,26 +1,58 @@
 @import "tailwindcss";
+@import "preline/variants.css";
+@source "../node_modules/preline/dist/*.js";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Adds pointer cursor to buttons */
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Defaults hover styles on all devices */
+@custom-variant hover (&:hover);
+
+/* Add to your global CSS (e.g., app/globals.css) */
+@keyframes slide-next {
+  0% { transform: translateX(100%); opacity: 0.5; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes slide-prev {
+  0% { transform: translateX(-100%); opacity: 0.5; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes enter-left {
+  0% { transform: translateX(100%); opacity: 0.5; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes leave-left {
+  0% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(-100%); opacity: 0.5; }
+}
+@keyframes enter-right {
+  0% { transform: translateX(-100%); opacity: 0.5; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes leave-right {
+  0% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(100%); opacity: 0.5; }
+}
+.animate-slide-next {
+  animation: slide-next 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+.animate-slide-prev {
+  animation: slide-prev 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+.animate-enter-left {
+  animation: enter-left 0.7s cubic-bezier(0.4,0,0.2,1) both;
+}
+.animate-leave-left {
+  animation: leave-left 0.7s cubic-bezier(0.4,0,0.2,1) both;
+}
+.animate-enter-right {
+  animation: enter-right 0.7s cubic-bezier(0.4,0,0.2,1) both;
+}
+.animate-leave-right {
+  animation: leave-right 0.7s cubic-bezier(0.4,0,0.2,1) both;
 }
