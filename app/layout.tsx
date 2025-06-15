@@ -1,7 +1,7 @@
 
 import PrelineScriptWrapper from "./components/PrelineScriptWrapper";
 import "./globals.css";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function RootLayout({
   children,
@@ -15,6 +15,7 @@ export default function RootLayout({
         {/* Removed any <link rel="icon" ... /> or similar favicon tags. Only the <title> remains. */}</head>
       <body>
         {children}
+        <SpeedInsights/>
         <PrelineScriptWrapper/>
       </body>
     </html>

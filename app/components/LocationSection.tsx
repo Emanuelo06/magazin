@@ -6,7 +6,7 @@ const LocationSection = () => {
   return (
    
     
-    <main className="container mx-auto px-4 py-8 bg-black text-white flex flex-col ">
+    <main className="container mx-auto px-4 py-8 bg-black text-white flex flex-col " id='contact'>
       <h1 className='text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center md:mb-6 drop-shadow-lg leading-tight  my-10 mb-4 font-roboto-serif'>Contactați-ne</h1>
       <div className="w-full flex flex-col justify-center gap-6 mb-8 items-stretch sm:flex-row sm:gap-4 md:gap-8">
         {/* Email Block */}

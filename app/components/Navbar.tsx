@@ -23,9 +23,9 @@ const Navbar = () => {
         </div>
         <div id="hs-navbar-example" className="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block w-full sm:w-auto" aria-labelledby="hs-navbar-example-collapse">
             <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5 text-white">
-            <a className="font-medium focus:outline-hidden text-base sm:text-lg md:text-xl lg:text-2xl" href="#">Despre Noi</a>
-            <a className="font-medium focus:outline-hidden text-base sm:text-lg md:text-xl lg:text-2xl" href="#">Galerie Foto</a>
-            <a className="font-medium focus:outline-hidden text-base sm:text-lg md:text-xl lg:text-2xl" href="#">Contact</a>
+            <a className="font-medium focus:outline-hidden text-base sm:text-lg md:text-xl lg:text-2xl" href="#hero">Despre Noi</a>
+            <a className="font-medium focus:outline-hidden text-base sm:text-lg md:text-xl lg:text-2xl" href="#galerie-foto">Galerie Foto</a>
+            <a className="font-medium focus:outline-hidden text-base sm:text-lg md:text-xl lg:text-2xl" href="#contact">Contact</a>
             </div>
         </div>
       </nav>

@@ -3,7 +3,7 @@ import HeroImg from "@/app/images/hero.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[60vh] md:min-h-[80vh] lg:min-h-screen w-full flex items-center justify-center overflow-hidden py-12 md:py-0">
+    <section className="relative min-h-[60vh] md:min-h-[80vh] lg:min-h-screen w-full flex items-center justify-center overflow-hidden py-12 md:py-0 " id="hero">
       <Image
         src={HeroImg}
         alt="Hero background"

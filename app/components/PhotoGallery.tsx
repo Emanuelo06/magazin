@@ -12,7 +12,7 @@ import Carousel from './Carousel'
 
 const PhotoGallery = () => {
   return (
-    <main className='flex flex-col items-center justify-center p-4 bg-black '>
+    <main className='flex flex-col items-center justify-center p-4 bg-black ' id='galerie-foto'>
         <h1 className="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 md:mb-6 drop-shadow-lg leading-tight font-roboto-serif font-semibold
           mt-3 lg:mt-7">
           Magazinele Noastre

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.2.0",
     "datatables.net": "^2.3.2",
     "dropzone": "^6.0.0-beta.2",
     "jquery": "^3.7.1",
