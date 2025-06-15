@@ -5,8 +5,6 @@ import Image3 from '@/app/images/exterior3.jpg'
 import Image4 from '@/app/images/interior1.jpg'
 import Image5 from '@/app/images/interior2.jpg'
 import Image6 from '@/app/images/magazin.jpg'
-
-import Image from 'next/image'
 import Carousel from './Carousel'
 
 
