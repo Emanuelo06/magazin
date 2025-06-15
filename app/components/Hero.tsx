@@ -14,7 +14,7 @@ const Hero = () => {
         sizes="100vw"
       />
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 w-full max-w-4xl">
-        <h1 className="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 drop-shadow-lg leading-tight">
+        <h1 className="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 drop-shadow-lg leading-tight font-roboto-serif">
           Materiale de Constructie de calitate din 2022
         </h1>
         <p className="text-base sm:text-lg md:text-2xl text-gray-200 mb-6 md:mb-8 drop-shadow-md max-w-2xl mx-auto">
