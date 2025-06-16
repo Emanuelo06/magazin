@@ -11,9 +11,11 @@ const Footer = () => {
           <span className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Toate drepturile rezervate.</span>
         </div>
         <div className="flex flex-col items-center gap-2 md:items-end">
-          <a href="mailto:contact@magazin.ro" className="text-sm text-white hover:text-blue-400 transition">contact@magazin.ro</a>
-          <a href="tel:+40712345678" className="text-sm text-white hover:text-green-400 transition">+40 712 345 678</a>
+          <a href="mailto:contact@magazin.ro" className="text-sm text-white hover:text-blue-400 transition">vdani.291283@gmail.com</a>
+          <a href="tel:+40712345678" className="text-sm text-white hover:text-green-400 transition">+40730371649</a>
+          <a href="tel:+40712345678" className="text-sm text-white hover:text-green-400 transition">+40732876904</a>
           <span className="text-sm text-gray-400">Str. Sacu nr203, Caras-Severin</span>
+          <span className="text-sm text-gray-400">2: Stiuca strada narciselor 1, Timis   </span>
         </div>
       </div>
     </footer>

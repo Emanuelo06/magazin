@@ -24,10 +24,10 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center w-full">
           <button className="bg-white text-black font-semibold px-6 md:px-8 py-2.5 md:py-3 rounded-lg shadow hover:bg-gray-200 transition w-48">
-            Contactează-ne
+            <a href="#contact">Contactează-ne</a>
           </button>
           <button className="bg-black bg-opacity-60 text-white font-semibold px-6 md:px-8 py-2.5 md:py-3 rounded-lg shadow hover:bg-black hover:bg-opacity-80 transition border border-white w-48">
-            Vezi locațiile
+            <a href="#locatii">Vezi locațiile</a>
           </button>
         </div>
       </div>
